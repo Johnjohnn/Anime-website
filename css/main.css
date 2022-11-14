@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono&display=swap');
+@import url('https://fonts.cdnfonts.com/css/kick-the-font');
 html {
     box-sizing: border-box;
     font-size:62.5%;
@@ -12,26 +13,26 @@ margin: 0;
 padding: 0;
 overflow-x: hidden; 
 }
-
-
 nav {
   width: 100vw;
   height: 5vh;
   background: black;
   font-size: 2rem;
   display: flex;
-  justify-content:space-around;
+  justify-content: center;
   opacity: 0.9;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 9;
+  
 }
 nav a {
   text-decoration: none;
   color: #fff;
-  margin: auto;
-  font-family: 'Spline Sans Mono', monospace;
+  margin:auto  8rem;
+/* font-family: 'Spline Sans Mono', monospace; */
+  font-family: 'Kick The Font', sans-serif;
   cursor: pointer;
   transition: all 0.5s;
 }
@@ -43,13 +44,13 @@ nav a:hover {
 }
 /* Main Section Start */
 .main-section {
-  width: 100vw;
-  height: 40vw;
- background-image: url("../assets/images/main-image.png");
- background-repeat: no-repeat;
- background-size: cover;
- display: flex;
- align-items: center;
+width: 100vw;
+height: 40vw;
+background-image: url("../assets/images/main-image.png");
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+align-items: center;
 }
 main {
   width: 100vw;
@@ -57,13 +58,13 @@ main {
 
 }
 .logo {
-  width: 20vw;
-   position: relative;
-   top: 30%;
-   left: 39%;
-   border-radius: 20%;
-   animation: pulsing 6s ease-in-out infinite;
-   background-color: black;
+width: 20vw;
+position: relative;
+top: 30%;
+left: 39%;
+border-radius: 20%;
+animation: pulsing 6s ease-in-out infinite;
+background-color: black;
 }
 @keyframes pulsing {
   0% {
@@ -83,7 +84,7 @@ main {
 .about-section-container{
   position: relative;
   width: 100vw;
-  height: 80vh;
+  height: 150vh;
   background-image: linear-gradient(
     180deg,
     hsl(285deg 100% 50%) 0%,
@@ -111,38 +112,50 @@ main {
   );
 }
 .about-section{
-position: absolute;
+display: flex;
+justify-content: center;
 text-align: center;
-text-shadow: 2px 3px 3px red;
-font-size: 2.5rem;
-left: 35%;
-top: 35%;
+line-height: 3.5rem;
+font-size: 2.8rem;
+display: flex;
+justify-content: center;
 padding: 5rem;
 color: #fff;
-width: 30%;
-background-color: rgba(255, 7, 7, 0.212);
-z-index:3;
+width: 60vw;
+margin: auto;
+background-image: linear-gradient(45deg, #3503ad, #f7308c);
+z-index:3;  
 }
-.about-section img {
+.about-section a {
+  text-decoration: none;
+  
+}
+.first-image img {
+  display: block;
+  margin: auto;
+  padding-top:4em;
+  width: 40vw;
+}
+.about-section-container .image-1{
 position:absolute;
-top:-5.2vh;
-left: -9vw;
-z-index: -1;
+top:14.5rem;
+left: 9vw;
+z-index: 1;
 }
-.about-section .image-2 {
-  position:absolute;
-  top:-9rem;
-   left: 77rem;
-  z-index: -1;
-  }
-  .about-section .image-3 {
+  .about-section-container .image-3 {
     position:absolute;
-    top:-1rem;
-     left: -50rem;
-    z-index: -1;
+    top:20rem;
+     left:144rem;
+    z-index: 1;
     }
+    .about-section-container .image-2 {
+      width: 60vw;
+      display: block;
+      margin: auto;
+      }
 /* Stream Schedule Section */
 .stream-schedule-section{
+  position: relative;
   width: 100vw;
   height: 160vh;
   background-image: url("../assets/images/aniyuki-black-and-white-anime-12.gif");
@@ -156,13 +169,19 @@ z-index: -1;
   font-family: 'Poppins', sans-serif;
   color: #ffffff;
 }
+.horarios {
+position: absolute;
+font-size: 3vw;
+font-family: 'Kick The Font', sans-serif;
+top: 18rem;
+}
 .container {
   flex-grow: 1;
   max-width: 100vw;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 82px;
+  padding-right: 82px;
 }
 
 .cards {
@@ -186,7 +205,7 @@ z-index: -1;
   flex-wrap: wrap;
   justify-content: center;
   background-color: #000000;
-  margin: 4rem;
+  margin: 10rem;
 } 
   .card ::before {
     content: "";
@@ -240,7 +259,7 @@ z-index: -1;
   margin: 0;
   font-size: 3rem;
   font-weight: 700;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
 }
 
