@@ -337,3 +337,21 @@ top: 18rem;
     margin: 0;
     margin-bottom: 16px;
   }
+  /*  Contact us Section Starts */
+  .contact {
+    position:relative;
+    width: 100vw;
+    height: 100%;
+  }
+  section .overlay {
+    position: absolute;
+    background-color: rgba(2, 2, 2, 0.384);
+    width: 100vw;
+    height: 100%;
+    z-index: 5;
+  }
+  .contact .video {
+    position:absolute
+    width: 100vw;
+    height: 100%;
+  }
