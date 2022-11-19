@@ -530,8 +530,11 @@ font-family: 'Karmatic Arcade', sans-serif;
   left: 0;
   top: 9rem;
   animation: moveleft 30s linear infinite;
+ 
 }
 .noticias .text-right{
+  position: absolute;
+  white-space: nowrap;
   font-size: 2rem;
   right:0;
   top:19rem;
@@ -545,6 +548,7 @@ font-family: 'Karmatic Arcade', sans-serif;
       transform: translate3d(-50%,0,0,);
   }
 }
+
 @keyframes moveright {
   0% {
       transform: translate3d(0,0,0,);
