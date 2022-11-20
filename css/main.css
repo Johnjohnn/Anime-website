@@ -580,11 +580,11 @@ img {vertical-align: middle;}
   z-index: 4;
 }
 /* Caption text */
-.text {
-  color:#56d8e4;
+.text-title {
+  color: #9f01ea;;
   font-size: 5rem;
   font-family: 'Kick The Font', sans-serif;
-  text-shadow: 3px 3px 2px #9f01ea;
+  text-shadow: 3px 3px 2px #56d8e4;
   font-weight: bolder;
   padding: 8px 12px;
   position: absolute;
