@@ -630,3 +630,37 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+ .donaciones{
+  display: flex;
+  
+}
+.donacion {
+  display: flex;
+  flex-direction:column;
+  width: 50%;
+}
+.donacion img {
+  width: 20vw;
+  margin: 2rem auto;
+}
+.donacion h2 {
+  
+}
+.donacion p{
+  text-align: center;
+  font-size: 3.5rem;
+  padding: 2rem;
+  line-height: 4rem;
+}
+.sigenos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.sigenos i {
+  font-size: 4rem;
+  margin: 3rem auto 3rem;
+  width: 100%;
+}
