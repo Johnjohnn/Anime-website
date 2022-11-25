@@ -523,8 +523,9 @@ form .form-row .textarea{
 font-weight: 600;
 text-align: center;
 font-family: 'Karmatic Arcade', sans-serif;
+color: red;
 }
-.noticias .text-left {
+ .text-left {
   font-size: 2rem;
   position: absolute;
   white-space: nowrap;
@@ -533,7 +534,7 @@ font-family: 'Karmatic Arcade', sans-serif;
   animation: moveleft 30s linear infinite;
  
 }
-.noticias .text-right{
+ .text-right{
   position: absolute;
   white-space: nowrap;
   font-size: 2rem;
@@ -632,7 +633,7 @@ img {vertical-align: middle;}
 }
  .donaciones{
   display: flex;
-  
+  background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
 }
 .donacion {
   display: flex;
@@ -644,23 +645,39 @@ img {vertical-align: middle;}
   margin: 2rem auto;
 }
 .donacion h2 {
-  
+  text-align: center;
+  color: #fff;
+  font-size: 6rem;
+  font-family: 'Kick The Font', sans-serif;
 }
 .donacion p{
-  text-align: center;
-  font-size: 3.5rem;
+  margin-left: 19rem;
+  color: #fff;
+  text-align: left;
+  font-size: 2.5rem;
   padding: 2rem;
   line-height: 4rem;
 }
 .sigenos {
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
- 
 }
 .sigenos i {
-  font-size: 4rem;
-  margin: 3rem auto 3rem;
+  font-size: 6rem;
+  margin: 6rem auto 3rem;
   width: 100%;
+  text-align: center;
+  
+}
+.sigenos a {
+  color:white;
+}
+
+/* Footer Begins */
+footer {
+  height: 20vh;
+  background-color: #000000;
 }
