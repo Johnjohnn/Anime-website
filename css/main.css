@@ -678,16 +678,33 @@ img {vertical-align: middle;}
 
 /* Footer Begins */
 footer {
-  height: 20vh;
   background-color: #000000;
   color:white;
 }
 footer .f-section1 {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  text-align: center;
 }
 .f-section1 img{
   width: 20%;
-  height: 50%;
+  height: 60%;
   border-radius: 50%;
+}
+.f-section1 .picture-section{
+  width: 50%;
+  height:auto;
+}
+.f-section1 .text-section {
+ width: 50%;
+text-align: center;
+}
+footer .copywrite {
+  background-color: #000000;
+}
+footer .copywrite{
+  display: block;
+  text-align: center;
+  background-color: #000000;
 }
