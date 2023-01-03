@@ -680,6 +680,7 @@ img {vertical-align: middle;}
 footer {
   background-color: #000000;
   color:white;
+  height:25vh;
 }
 footer .f-section1 {
   display: flex;
@@ -688,13 +689,16 @@ footer .f-section1 {
   text-align: center;
 }
 .f-section1 img{
-  width: 20%;
+  width: 15%;
   height: 60%;
   border-radius: 50%;
 }
 .f-section1 .picture-section{
   width: 50%;
   height:auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .f-section1 .text-section {
  width: 50%;
