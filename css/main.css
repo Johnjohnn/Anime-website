@@ -699,10 +699,17 @@ footer .f-section1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2rem;
+  font-size: 2.5rem;
+}
+.f-section1 .picture-section img{
+  padding: 2rem;
+
 }
 .f-section1 .text-section {
  width: 50%;
 text-align: center;
+font-size: 2.5rem;
 }
 footer .copywrite {
   background-color: #000000;
