@@ -711,6 +711,17 @@ footer .f-section1 {
 text-align: center;
 font-size: 2.5rem;
 }
+.f-section1 .text-section  a{
+text-decoration: none;
+cursor: pointer;
+color: #f2f2f2;
+transition: all 0.5s;
+}
+.f-section1 .text-section  a:hover{
+  color: rgb(201, 19, 19);
+  font-weight: 900;
+  letter-spacing: 3px;
+}
 footer .copywrite {
   background-color: #000000;
 }
