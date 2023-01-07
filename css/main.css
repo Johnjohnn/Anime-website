@@ -667,18 +667,17 @@ img {vertical-align: middle;}
 }
 .sigenos i {
   font-size: 6rem;
-  padding: 6rem;
-  margin-top: 0;
-
-  height: 1rem;
+  margin: 0;
   width: 100%;
   text-align: center;
   border-radius: 50%;
 }
 .sigenos a {
-  color:white;
-  border-radius: 50%;
-  margin: 0;
+color:white;
+border-radius: 50%;
+display: block;
+height: 5rem;
+margin: 6rem;
 }
 
 /* Footer Begins */
