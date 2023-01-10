@@ -740,6 +740,11 @@ transition: all 0.5s;
   font-weight: 900;
   letter-spacing: 3px;
 }
+.f-section1 .picture-section i{
+  font-size: 1.5em;
+  padding: 3rem;
+  color:#f2f2f2
+}
 footer .copywrite {
   background-color: #000000;
 }
