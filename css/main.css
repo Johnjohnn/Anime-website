@@ -698,7 +698,7 @@ transition: all  .5s;
 footer {
   background-color: #000000;
   color:white;
-  height:25vh;
+  height:35vh;
 }
 footer .f-section1 {
   display: flex;
@@ -719,6 +719,7 @@ footer .f-section1 {
   align-items: center;
   padding: 2rem;
   font-size: 2.5rem;
+  line-height: 1.4em;
 }
 .f-section1 .picture-section img{
   padding: 2rem;
@@ -728,6 +729,7 @@ footer .f-section1 {
  width: 50%;
 text-align: center;
 font-size: 2.5rem;
+line-height: 1.4em;
 }
 .f-section1 .text-section  a{
 text-decoration: none;
@@ -740,7 +742,7 @@ transition: all 0.5s;
   font-weight: 900;
   letter-spacing: 3px;
 }
-.f-section1 .picture-section i{
+.picture-section i{
   font-size: 1.5em;
   padding: 3rem;
   color:#f2f2f2
