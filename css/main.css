@@ -698,7 +698,7 @@ transition: all  .5s;
 footer {
   background-color: #000000;
   color:white;
-  height:35vh;
+  height:32vh;
 }
 footer .f-section1 {
   display: flex;
@@ -755,4 +755,26 @@ footer .copywrite{
   text-align: center;
   background-color: #000000;
   font-size: 2rem;
+}
+footer .copywrite a{
+  text-decoration: none;
+  cursor: pointer;
+  color: #f2f2f2;
+  transition: all 0.5s;
+}
+footer .copywrite a:hover{
+  color: rgb(201, 19, 19);
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+
+@media (max-width:1650px) {
+  html {
+    box-sizing: border-box;
+    font-size:49.5%;
+    overflow-x: hidden; 
+  }
+  .cards__item {
+    height: 300px;
+  }
 }
