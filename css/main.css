@@ -509,7 +509,7 @@ form .form-row .textarea{
   }
 }
 /* Noticias Section Starts */
-.noticias {
+.titulos {
   position: relative;
   height: 20vh;
   font: 4rem;
@@ -519,32 +519,35 @@ form .form-row .textarea{
   padding-top: 1rem;
  
 }
-.noticias .header{
+.titulos .header{
 font-weight: 600;
 text-align: center;
 font-family: 'Karmatic Arcade', sans-serif;
-color: red;
+color:#fff;
+font-size: 2.3vw;
+font-family: 'Kick The Font', sans-serif;
 }
  .text-left {
-  font-size: 2rem;
+  font-size: 4rem;
   position: absolute;
   white-space: nowrap;
   left: 0;
-  top: 9rem;
+  top: 14rem;
   animation: moveleft 30s linear infinite;
- 
+  color:#fff;
 }
  .text-right{
   position: absolute;
   white-space: nowrap;
-  font-size: 2rem;
+  font-size: 4rem;
   right:0;
-  top:19rem;
+  top:22rem;
   animation: moveright 30s linear infinite;
+  color:#fff;
 }
 @keyframes moveleft {
   0% {
-      transform: translate3d(0,0,0);
+      transform: translate3d(0,0,0,0);
   }
   100% {
       transform: translate3d(-50%,0,0);
@@ -553,7 +556,7 @@ color: red;
 
 @keyframes  moveright {
   0% {
-      transform: translate3d(0,0,0);
+      transform: translate3d(0,0,0,0);
   }
   100% {
       transform: translate3d(50%,0,0);
