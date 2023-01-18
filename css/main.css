@@ -542,7 +542,7 @@ font-family: 'Kick The Font', sans-serif;
   font-size: 4rem;
   right:0;
   top:22rem;
-  animation: moveright 30s linear infinite;
+  animation: moveright 20s linear infinite;
   color:#fff;
 }
 @keyframes moveleft {
