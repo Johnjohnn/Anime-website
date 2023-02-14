@@ -781,6 +781,21 @@ footer .copywrite a:hover{
     height: 300px;
   }
 }
-@media (max-width:1430px) {
+@media (max-width:1500px) {
 
+  .about-section-container .image-1{
+    top:14.5rem;
+    left: 9vw;
+    width: 18vw;
+    min-width: 15vw;
+    }
+      .about-section-container .image-3 {
+        position:absolute;
+        top:25rem;
+         left:76vw;
+         width: 18vw;
+        }
+  .about-section-container {
+    height: 80%;
+  }
 }
