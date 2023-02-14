@@ -771,7 +771,7 @@ footer .copywrite a:hover{
   letter-spacing: 3px;
 }
 
-@media (max-width:1650px) {
+@media (max-width:1695px) {
   html {
     box-sizing: border-box;
     font-size:49.5%;
@@ -780,4 +780,7 @@ footer .copywrite a:hover{
   .cards__item {
     height: 300px;
   }
+}
+@media (max-width:1430px) {
+
 }
