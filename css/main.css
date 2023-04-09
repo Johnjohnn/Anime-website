@@ -782,7 +782,9 @@ footer .copywrite a:hover{
   }
 }
 @media (max-width:1500px) {
-
+  .navigation a {
+    font-size: 1.9rem;
+  }
   .about-section-container .image-1{
     top:14.5rem;
     left: 9vw;
@@ -798,4 +800,19 @@ footer .copywrite a:hover{
   .about-section-container {
     height: 80%;
   }
+  .stream-schedule-section {
+    height: 75%;
+  }
+  .slideshow-container {
+    height: 72%;
+  }
+  footer {
+    height: 85%;
+  }
+  .copywrite {
+    padding: 2rem;
+  }
+}
+@media (max-width:"1350px") {
+
 }
