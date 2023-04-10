@@ -491,7 +491,11 @@ form .form-row .textarea{
   position: relative;
   z-index: 2;
 }
-@media (max-width: 700px) {
+@media (max-width: 900px) {
+  .form-container {
+    width: 70%;
+    min-width: 300px;
+  }
   .form-container .text{
     font-size: 30px;
   }
@@ -686,6 +690,15 @@ img {vertical-align: middle;}
   text-align: center;
   border-radius: 50%;
 }
+.sigenos .fa-facebook:hover {
+  color: rgb(0, 102, 255);
+}
+.sigenos .fa-tiktok:hover {
+  color: black;
+}
+.sigenos .fa-discord:hover {
+  color:rgba(21, 7, 216, 0.63);
+}
 .sigenos a {
 color:white;
 border-radius: 50%;
@@ -713,6 +726,7 @@ footer .f-section1 {
   width: 15%;
   height: 60%;
   border-radius: 50%;
+
 }
 .f-section1 .picture-section{
   width: 50%;
@@ -826,4 +840,81 @@ nav {
   flex-direction: column;
  margin: 120px 0 80px 0;
 }
+}
+
+@media (max-width:900px) {
+  .image-1, .image-2, .image-3 {
+    display: none;
+    
+  }
+  .about-section-container .about-section {
+    width: 100%;
+  }
+  .stream-schedule-section h2 {
+    font-size:calc(12px + 1.5vw);
+  }
+  .titulos .header {
+    font-size:calc(12px + 1.5vw);
+  }
+  .slideshow-container .notis {
+    font-size:calc(12px + 1.5vw);
+  }
+  .donacion p{
+   display: none;
+  }
+  .donaciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .donaciones .sigenos {
+    display: flex;
+    flex-direction: row;
+  }
+  .f-section1 img{
+    border-radius: 50%;
+    min-width: 35%;
+    
+  }
+}
+@media (max-width:500px) {
+  .cards__item {
+   width: 100%;
+   margin:6rem 0 3rem 0;
+  }
+  .text-title {
+  font-size: 4rem;
+  }
+  .sigenos a {
+    margin: 2rem;
+  }
+  .picture-section  {
+  display: flex;
+  flex-direction: column;
+  }
+  .picture-section img {
+    min-width: 50%;
+  }
+  .text-section {
+    display: none;
+  }
+  .container {
+    flex-grow: 1;
+    max-width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (max-width:320px) {
+
+  .text-title {
+    font-size: 3rem;
+    }
+  .f-section1 img{
+    border-radius: 50%;
+    min-width: 95%;
+    
+  }
 }
