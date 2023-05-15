@@ -830,10 +830,9 @@ footer .copywrite a:hover{
   }
 }
 @media (max-width:1350px) {
-nav {
+nav a {
   display: none;
 }
-
 }
 @media (max-width: 1200px){
 
