@@ -31,6 +31,9 @@ nav {
   z-index: 9;
   
 }
+nav button {
+  display: none;
+}
 nav a {
   text-decoration: none;
   color: #fff;
@@ -830,9 +833,16 @@ footer .copywrite a:hover{
   }
 }
 @media (max-width:1350px) {
+.navigation{
+
+}
 nav a {
   display: none;
 }
+nav i {
+  color:white;
+  font-size: 3em;
+  padding:1rem
 }
 @media (max-width: 1200px){
 
