@@ -876,8 +876,8 @@ nav a {
 }
 nav i {
   color:white;
-  font-size: 3em;
-  padding:1rem
+  font-size:1.5em;
+  padding:2rem
 }
 
 .overlay a {font-size:8em;
@@ -960,6 +960,9 @@ div .contact, section video {
   .picture-section img {
     min-width: 50%;
   }
+   div .contact {
+    height: 20%;
+   }
   .text-section {
     display: none;
   }
@@ -970,6 +973,11 @@ div .contact, section video {
     margin-right: auto;
     padding-left: 0;
     padding-right: 0;
+  }
+  nav i {
+    color:white;
+    font-size: 1.5em;
+    padding:1rem
   }
 }
 @media (max-width:320px) {
