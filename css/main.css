@@ -810,6 +810,7 @@ footer .copywrite a:hover{
 
 .overlay a {
   padding: 8px;
+  font-family: 'Kick The Font', sans-serif;
   text-decoration: none;
   font-size:3rem;
   color: #818181;
@@ -840,6 +841,8 @@ footer .copywrite a:hover{
 @media (max-width:1500px) {
   .navigation a {
     font-size: 1.9rem;
+    
+    
   }
   .about-section-container .image-1{
     top:14.5rem;
@@ -880,7 +883,8 @@ nav i {
   padding:2rem
 }
 
-.overlay a {font-size:8em;
+.overlay a {
+  font-size:5rem;
   text-transform: capitalize;
 }
 .overlay .closebtn {
