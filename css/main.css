@@ -788,6 +788,10 @@ footer .copywrite a:hover{
   font-weight: 900;
   letter-spacing: 3px;
 }
+.small-title {
+  font-family: 'Kick The Font', sans-serif;
+}
+
 .overlay {
   height: 100%;
   width:0%;
