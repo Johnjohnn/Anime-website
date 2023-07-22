@@ -12,9 +12,12 @@ html {
     box-sizing: inherit;
   }
 body {
+    background-image: url(../assets/images/Foro/Keneki.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 margin: 0 20em 0 20em;
 padding: 0;
-overflow-x: hidden; 
+overflow: hidden; 
 height: 100%;
 
 }
@@ -57,13 +60,150 @@ nav a:hover {
     justify-content: center;
     flex-wrap: wrap;
     height: 100%;
+    margin-top: 5rem;
 }
 .card {
     background-image: url(/assets/images/Foro/enfermo.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 5%;
     color: #fff;
-    margin: 2rem;
-    height: 30vh;
+    margin: 6rem 2rem;
+    height: 25vh;
     width: 20vw;
+    min-height: 100px;
+    min-width: 200px;
+    opacity: 0.9;
 }
+.card .title {
+display: flex;
+font-family: 'Kick The Font', sans-serif;
+justify-content:center;
+padding: 4px;
+background-image:linear-gradient(45deg, #3503ad, #f7308c);;
+border-radius: 50px;
+font-size: 2.3rem;
+width: 50%;
+margin: 2rem auto;
+}
+.card p {
+    display: flex;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 2.3rem;
+    justify-content: center;
+    align-items:flex-end
+}
+.card:hover {
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #bc13fe,
+            0 0 0.8rem #bc13fe,
+            0 0 2.8rem #bc13fe,
+            inset 0 0 1.3rem #bc13fe; 
+            scale: 1.2;
+            transition: all .5s;
+}
+.card i {
+    font-size:3rem;
+    font-family: fantasy;
+    padding: 3rem;
+}
+/* Pagination  */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagination a {
+    color: red;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+  .pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+/* Footer Section */
+footer {
+    background-color: #000000;
+    color:white;
+    height:32vh;
+  }
+  footer .f-section1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+  .f-section1 img{
+    width: 15%;
+    height: 60%;
+    border-radius: 50%;
+  
+  }
+  .f-section1 .picture-section{
+    width: 50%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    font-size: 2.5rem;
+    line-height: 1.4em;
+  }
+  .f-section1 .picture-section img{
+    padding: 2rem;
+  
+  }
+  .f-section1 .text-section {
+   width: 50%;
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 1.4em;
+  }
+  .f-section1 .text-section  a{
+  text-decoration: none;
+  cursor: pointer;
+  color: #f2f2f2;
+  transition: all 0.5s;
+  }
+  .f-section1 .text-section  a:hover{
+    color: rgb(201, 19, 19);
+    font-weight: 900;
+    letter-spacing: 3px;
+  }
+  .picture-section i{
+    font-size: 1.5em;
+    padding: 3rem;
+    color:#f2f2f2
+  }
+  footer .copywrite {
+    background-color: #000000;
+  }
+  footer .copywrite{
+    display: block;
+    text-align: center;
+    background-color: #000000;
+    font-size: 2rem;
+  }
+  footer .copywrite a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #f2f2f2;
+    transition: all 0.5s;
+  }
+  footer .copywrite a:hover{
+    color: rgb(201, 19, 19);
+    font-weight: 900;
+    letter-spacing: 3px;
+  }
+  .small-title {
+    font-family: 'Kick The Font', sans-serif;
+  }
+  
